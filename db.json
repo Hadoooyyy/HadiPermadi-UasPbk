@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "email": "user1@example.com",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "username": "hadi",
+      "email": "hadi@gmail.com",
+      "password": "hadipermadi428242",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "username": "hadi1234",
+      "email": "hadipermadi@gmail.com",
+      "password": "hadipermadi1212",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "username": "hadi123",
+      "email": "h@gmail.com",
+      "password": "hadi1234",
+      "role": "user",
+      "id": 5
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "name": "Mobile Legends",
+      "image": "images/ml.jpg",
+      "description": "Top up diamonds for Mobile Legends",
+      "price": 10000
+    },
+    {
+      "id": 2,
+      "name": "PUBG Mobile",
+      "image": "images/pubg.jpg",
+      "description": "Top up UC for PUBG Mobile",
+      "price": 15000
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "name": "VIP Room",
+      "image": "images/vip.jpg",
+      "description": "Exclusive VIP room with high-speed internet",
+      "price": 50000,
+      "capacity": 4,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Standard Room",
+      "image": "images/standar.jpg",
+      "description": "Standard gaming room",
+      "price": 30000,
+      "capacity": 6,
+      "available": true
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "userId": 2,
+      "roomId": 1,
+      "gameId": 1,
+      "date": "2023-12-01",
+      "hours": 2,
+      "totalPrice": 100000,
+      "status": "confirmed"
+    }
+  ]
+}
